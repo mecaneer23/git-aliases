@@ -7,11 +7,11 @@ Easily installable collection of git aliases
 ### Using wget
 
 ```bash
-wget -q -O - https://raw.githubusercontent.com/mecaneer23/git-aliases/main/aliases.sh | bash
+source <(wget -q -O - https://raw.githubusercontent.com/mecaneer23/git-aliases/main/aliases.sh)
 ```
 
 ### Using curl
 
 ```bash
-curl -s -L https://raw.githubusercontent.com/mecaneer23/git-aliases/main/aliases.sh | bash
+source <(curl -s -L https://raw.githubusercontent.com/mecaneer23/git-aliases/main/aliases.sh)
 ```
